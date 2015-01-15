@@ -24,7 +24,7 @@ body{
 
 .wanted {
     text-align: center;
-	height: 3.9em;
+	height: 1.5em;
     background-color: #e7e5d9;
 	display: inline-block;
 	color: #000;
@@ -68,3 +68,10 @@ body{
 	margin-left: .1em;
 	width: .8em;
 }
+
+@media only screen and (min-width: 38em) {
+
+	.masthead {
+		background: transparent url("../images/masthead-bg.png") repeat left center;
+		text-align: center;
+	}
