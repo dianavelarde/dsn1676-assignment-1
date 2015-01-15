@@ -26,7 +26,6 @@ body{
     text-align: center;
 	height: 1.5em;
     background-color: #e7e5d9;
-	display: inline-block;
 	color: #000;
 	text-shadow: 2.5px 2.5px 0 #ccc;
 	font-weight: lighter;
@@ -74,4 +73,9 @@ body{
 	.masthead {
 		background: transparent url("../images/masthead-bg.png") repeat left center;
 		text-align: center;
-	}
+    }
+    
+    .wanted {
+        text-align: center;
+        display: inline-block;
+    }
