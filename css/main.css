@@ -25,4 +25,10 @@ body{
 .wanted {
     text-align: center;
 	height: 3.26em;
+    background-color: #e8e5da;
+	display: inline-block;
+	color: #000;
+	text-shadow: 2.5px 2.5px 0 #ccc;
+	font-weight: lighter;
+	font-size: 2.5em;
 }
