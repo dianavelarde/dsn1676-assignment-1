@@ -34,9 +34,10 @@ body{
 
 .reward {
     background-color: #87714f;
+    background-image: url("../images/hat-copy.svg"), url("../images/hand-cuff.svg");
 	background-repeat: no-repeat;
 	background-position: center 5%, center 95%;
-    padding: 1.5em 0 5em;
+    padding: 3em 0 11em;
 	background-size: 4em, 2em;
 }
 
@@ -68,6 +69,16 @@ body{
 	width: .8em;
 }
 
+.img-flex {
+	display: block;
+	width: 100%;
+}
+
+.border {
+	border-image: url("../images/border-.png") 20 20 20 20 stretch stretch;
+	border-width: 20px 20px 20px 20px;
+}
+
 @media only screen and (min-width: 38em) {
 
 	.masthead {
@@ -79,3 +90,16 @@ body{
         text-align: center;
         display: inline-block;
     }
+    
+    	.reward {
+		background-color: #87724f;
+		background-image: url("../images/hat-copy.svg"), url("../images/hand-cuffs.svg");
+		background-repeat: no-repeat;
+		background-position: center 3%, center 95%;
+		background-size: 5em, 2.5em;
+		padding-bottom: 7em;
+	}
+    
+    .reward {
+		margin: 2em 0 0;
+	}
