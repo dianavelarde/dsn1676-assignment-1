@@ -15,19 +15,3 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
-body{
-	font-family: 'Abril Fatface', cursive;
-    color: #000;
-}
-
-.wanted {
-	background-color: #e7e5d9;
-	display: inline-block;
-	color: #000;
-	text-shadow: 2.5px 2.5px 0 #ccc;
-	font-weight: lighter;
-	font-size: 2.5em;
-    height: 3.26em;
-    text-align: center;
-}
