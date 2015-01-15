@@ -75,7 +75,7 @@ body{
 }
 
 .border {
-	border-image: url("../images/border-.png") 20 20 20 20 stretch stretch;
+	border-image: url("../images/border.png") 20 20 20 20 stretch stretch;
 	border-width: 20px 20px 20px 20px;
 }
 
@@ -114,12 +114,13 @@ body{
 	}
 
 	.gutter-2 {
-  		padding-left: 1rem;
-  		padding-right; 2rem;
+  		padding-left: 1.4rem;
+  		padding-right: 0.2rem;
 	}
     
     .pad-left {
-        padding-left: 2rem;
+        padding-right: 1.4rem;
+        padding-left: 0.2rem;
 	}
 
 }
