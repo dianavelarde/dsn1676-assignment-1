@@ -30,7 +30,7 @@ body{
 	color: #000;
 	text-shadow: 2.5px 2.5px 0 #ccc;
 	font-weight: lighter;
-	font-size: 2.5em;
+	font-size: 2.3em;
 }
 
 .reward {
@@ -51,10 +51,20 @@ body{
 
 .reward p {
     text-align: center;
-	line-height: 1.2em;
+	line-height: 1.5em;
 }
 
 .reward ul {
     font-family: serif;
 	line-height: 1.5em;
+}
+
+.left-star {
+	margin-right: .1em;
+	width: .8em;
+}
+
+.right-star {
+	margin-left: .1em;
+	width: .8em;
 }
